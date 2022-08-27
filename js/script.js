@@ -12,7 +12,6 @@ console.log(numeroPc)
 
 document.getElementById('pc').innerHTML = numeroPc
 
-
 const risultato = document.getElementById('risultato')
 
 const solution = document.createElement('div')
