@@ -12,6 +12,7 @@ console.log(numeroPc)
 
 document.getElementById('pc').innerHTML = numeroPc
 
+
 const risultato = document.getElementById('risultato')
 
 const solution = document.createElement('div')
@@ -19,6 +20,7 @@ const solution = document.createElement('div')
 risultato.append(solution)
 
 let result 
+
 
 
 
@@ -30,14 +32,18 @@ if (numeroUtente > numeroPc)
 
     solution.innerHTML= (result)
 
-if (numeroPc > numeroUtente)
+
+    
+  if(numeroPc > numeroUtente)
+    
     result='Vincitore Pc'
 
     console.log(result)
 
-    solution.innerHTML= (result)
-
-if (numeroPc === numeroUtente)
+   solution.innerHTML = (result)
+    
+  if(numeroPc===numeroUtente)
+    
     result='X'
 
     console.log(result)
